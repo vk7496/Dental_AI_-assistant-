@@ -1,4 +1,14 @@
-__pycache__/
+cd dental_ai_app
+
+# فایل gitignore بساز
+echo "__pycache__/
 *.pyc
 .env
-.streamlit/secrets.toml
+.streamlit/secrets.toml" > .gitignore
+
+git init
+git add .
+git commit -m "initial commit: trilingual dental AI diagnostic app"
+git branch -M main
+git remote add origin https://github.com/vk7496/dental-ai-assistant.git
+git push -u origin main
